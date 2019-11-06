@@ -42,6 +42,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Chicago Cubs</h1>
       <Display strikes={strikes} balls={balls} />
       <Dashboard foul={foul} hit={hit} ball={ball} strike={strike} />
     </div>
