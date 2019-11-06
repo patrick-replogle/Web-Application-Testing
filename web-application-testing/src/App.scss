@@ -29,14 +29,13 @@ button {
   padding: 8px 20px;
   border-radius: 6px;
   font-size: 1.2rem;
-}
 
-button:hover {
-  opacity: 0.6;
-}
-
-button:focus {
-  outline: none;
+  &:hover {
+    opacity: 0.6;
+  }
+  &:focus {
+    outline: none;
+  }
 }
 
 .displayContainer {
@@ -46,30 +45,30 @@ button:focus {
   border: 3px solid black;
   border-radius: 6px;
   background: green;
-}
 
-.displayContainer .ballsContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 20px;
-  border: 2px solid black;
-  border-radius: 6px;
-  background: darkred;
-  color: white;
-  padding: 5px 0;
-}
+  .ballsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background: darkred;
+    color: white;
+    padding: 5px 0;
 
-.displayContainer .ballsContainer p {
-  font-size: 1.6rem;
-  margin-right: 5px;
-  font-weight: bold;
-}
+    p {
+      font-size: 1.6rem;
+      margin-right: 5px;
+      font-weight: bold;
+    }
 
-.displayContainer .ballsContainer div {
-  font-size: 8rem;
-  border: 2px solid black;
-  margin-right: 10px;
-  border-radius: 6px;
-  background: gray;
+    div {
+      font-size: 8rem;
+      border: 2px solid black;
+      margin-right: 10px;
+      border-radius: 6px;
+      background: gray;
+    }
+  }
 }

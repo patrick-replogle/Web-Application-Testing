@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Dashboard from "./components/Dashboard";
 import Display from "./components/Display";
 
-import "./App.css";
+import "./App.scss";
 
 function App() {
   const [balls, setBalls] = useState(0);
